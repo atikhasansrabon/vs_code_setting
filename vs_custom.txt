@@ -1,0 +1,105 @@
+settings.json
+
+{
+  "editor.fontSize": 18,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "workbench.colorCustomizations": {
+    "editorGroupHeader.tabsBackground": "#000000",
+    "activityBar.background": "#000000",
+    "sideBar.background": "#000000",
+    "minimap.background": "#000000",
+    "tab.activeBackground": "#000000",
+    "tab.inactiveBackground": "#000000",
+    "terminal.border": "#000000",
+    "terminal.background": "#000000",
+    "statusBar.background": "#000000",
+    "scrollbarSlider.background": "#000000",
+    "scrollbarSlider.hoverBackground": "#000000"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#95afc0"
+  },
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.hover.enabled": false,
+  "window.zoomLevel": 0,
+  // Live Server
+  "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  // Live SASS Compiler
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  // VS Code Theme Customization
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Ayu Dark",
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontSize": 20,
+  "diffEditor.wordWrap": "on",
+  "security.workspace.trust.untrustedFiles": "open",
+  // "files.autoSave": "afterDelay",
+  // "files.autoSaveDelay": 10,
+
+  // Prettier Config
+  "prettier.proseWrap": "always",
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  // Screencast Mode
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "screencastMode.mouseIndicatorColor": "#f1c40f",
+  "screencastMode.verticalOffset": 0,
+
+  // Enable Emmet support for JSX
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 0,
+  "liveServer.settings.wait": 0
+}
+
+
+
+Extensions:
+
+Auto Close Tag (Jun Han)
+Auto Import - ES6, TS, JSX, TSX (Sergey Korenuk)
+Auto Rename Tag (Jun Han)
+Debugger for Chrome
+ESLint (Microsoft)
+indent-rainbow (oderwat)
+HTML CSS Support (ecmel)
+JavaScript (ES6) code snippets (charalampos karypidis)
+Live Server (Ritwick Dey)
+Live Sass Compiler (Glenn Marks)
+Material Icon Theme (Philipp Kief)
+npm Intellisense (Christian Kohler)
+Path Intellisense (Christian Kohler)
+Postman (Postman)
+Prettier - Code formatted (Prettier)
+Reactjs code snippets (charalampos karypidis)
+Simple React Snippets (Burke Holland)
+Snipped (Jefferson Licet)
+Stylelint (Stylelint)
+WordPress Snippets (wpprotools.io)
+VSCode React Refactor (planbcoding)
+Tailwind CSS IntelliSense (Tailwind Labs)
